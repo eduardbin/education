@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Poppins:600|Raleway:400,500,700|Roboto:700&display=swap");
+::before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  color: #ffffff;
+  font: 600 17px/1.8 "Open Sans", sans-serif;
+  background-color: #6500ff;
+}
+
+.ba-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ba-logo {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  display: inline-block;
+}
+.ba-main-nav {
+  margin-left: 390px;
+  display: inline-block;
+}
+
+.ba-main-nav a {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 50px;
+  padding: 16px 0;
+}
+
+.ba-main-nav a:last-child {
+  margin-right: 0;
+}
+
+.ba-button {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 8px 33px;
+  background-color: #ff5f60;
+  border-radius: 57px;
+  display: inline-block;
+}
+
+header.ba-section a.ba-button {
+  margin-left: 107px;
+}
+
+main.ba-section {
+  position: relative;
+}
+
+.ba-main-article {
+  margin-top: 268px;
+  width: 571px;
+  display: inline-block;
+}
+
+.ba-main-article h1 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.ba-main-article p {
+  margin: 40px 0 0;
+  padding: 0;
+}
+
+.ba-main-article .ba-button {
+  margin-top: 50px;
+}
+
+.ba-img {
+  position: absolute;
+  top: 151px;
+  right: -105px;
+}
