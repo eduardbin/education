@@ -90,4 +90,5 @@ main.ba-section {
   position: absolute;
   top: 151px;
   right: -105px;
+  z-index: -1;
 }
